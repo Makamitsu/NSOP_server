@@ -6,6 +6,7 @@ var max_players = 10
 
 var currentPlayers: Array
 
+
 func _ready():
 	StartServer()
 	VisualServer.render_loop_enabled = false
